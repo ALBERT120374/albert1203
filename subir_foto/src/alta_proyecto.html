@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Agregar Proyecto</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>Agregar un nuevo proyecto</h1>
+			</div>
+			<form action="accionesdb.php" method="POST">
+			
+				<div class="col-md-12">
+					<table>
+						<tr>
+							<td>Nombre Del Proyecto</td>
+							<td><input type="text" name="name_proyecto"></td>
+						</tr>
+
+						<tr>
+							<td>Departamento donde se desarrolla</td>
+							<td><input type="text" name="departamento_proyecto"></td>
+						</tr>
+						
+						<tr>
+							<td>Division donde se desarrolla</td>
+							<td><input type="text" name="division_proyecto"></td>
+						</tr>
+
+						<tr>
+							<td>Respondable del Area o Departamento</td>
+							<td><input type="text" name="responsable_proyecto"></td>
+						</tr>
+
+						<tr>
+							<td>Cargo del Responsable del Area o Departamento</td>
+							<td><input type="text" name="cargo_proyecto"></td>
+						</tr>
+
+						<tr>
+							<td>Objetivo General Del Proyecto</td>
+							<td><textarea name="objetivo_proyecto"></textarea></td>
+						</tr>
+
+						<tr>
+							<td>Descripcion Del Proyecto</td>
+							<td><textarea name="descripcion_proyecto"></textarea></td>
+						</tr>
+
+						<tr>
+							<td>Modalidad del Proyecto</td>
+							<td>
+								<select name="modalidad_proyecto">
+									<option value="individual">Individual</option>
+									<option value="Grupal">Grupal</option>
+								</select>
+							</td>
+						</tr>
+
+						<tr>
+							<td>Mecanismos</td>
+							<td>
+								<select name="mecanismos_proyecto">
+									<option value="banco_proyectos">Banco de proyectos </option>
+									<option value="propuesta_propia">Propuesta Propia</option>
+									<option value="trabajador">Trabajador</option>
+								</select>
+							</td>
+						</tr>
+
+						<tr>
+							<td>Periodo</td>
+							<td>Inicio<input type="date" name="fecha_inicio">Fin<input type="date" name="fecha_fin"></td>
+						</tr>
+
+						<tr>
+							<td>Persona que firmara el acuerdo</td>
+							<td><input type="text" name="firma_acuerdo"></td>
+						</tr>
+
+						<tr>
+							<td>Puesto de la persona que firmara el acuerdo</td>
+							<td><input type="text" name="puesto_acuerdo"></td>
+						</tr>
+
+						<tr>
+							<td>Tipo de Proyecto</td>
+							<td>
+								<select name="tipo_proyecto">
+									<option value="Interno">Interno</option>
+									<option value="Externo">Externo</option>
+								</select>
+							</td>
+						</tr>
+
+					</table>
+				</div>
+
+				<div class="col-md-12">
+					<input type="submit" name="guarda_proyecto" value="GUARDAR">
+					<input type="button" name="regresa" value="CANCELAR" onclick="history.back()">
+				</div>
+
+			</form>
+		</div>
+	</div>
+</body>
+</html>

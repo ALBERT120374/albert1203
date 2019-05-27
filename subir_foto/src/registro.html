@@ -1,0 +1,54 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Index</title>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+	<div class="container">
+		
+			<div class="col-md-12 title-software">
+				<h1>REGISTRO</h1>
+			</div>
+			
+			<div class="col-md-4 content-login">
+					<form class="form-signin" action="accionesdb.php" method="POST">
+						<table>
+							<tr>
+								<td>MATRICULA</td>
+								<td><input type="number" name="matricula" min=0 max="9999999999" maxlength="10" required></td>
+							</tr>
+
+							<tr>
+								<td>CONTRASEÑA</td>
+								<td><input type="password" name="contra" maxlength="10" required></td>
+							</tr>
+
+							<tr>
+								<td>TIPO DE USUARIO</td>
+								<td>
+									<select name="tipo_user" required>
+										<option value="alumnos">ALUMNO</option>
+										<option value="empresas">EMPRESA</option>
+									</select>
+								</td>
+							</tr>
+
+							<tr>
+								<td><input type="submit" name="guarda_usuario" class="btn btn-lg btn-primary btn-block" value="Guardar"></td>
+								<td><input type="buttom" name="regresa" class="btn btn-lg btn-primary btn-block" value="Cancelar" onclick="history.back()"></td>
+
+							</tr>
+
+
+						</table>
+						</form>
+			</div>
+
+	</div>
+
+		
+	</div>
+</body>
+</html>

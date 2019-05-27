@@ -1,0 +1,214 @@
+.title-software {
+	display:table-cell;
+	vertical-align:middle;
+	text-align: center;
+}
+
+.content-login{
+	text-align: center;
+	margin:auto;
+	padding: 2%;
+}
+
+.Footer-data {
+    background: #f0f0f0;
+    text-align: center;
+    margin:0;
+    margin-top: 5%;
+    width: 100%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #F1F1F1;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+.boton_enlace{
+  display:inline;
+  border:0;
+  padding:0;
+  margin:0;
+  text-decoration:underline;
+  background:none;
+  color:#000088;
+  font-family: arial, sans-serif;
+  font-size: 1em;
+  line-height:1em;
+}
+
+.boton_enlace:hover {
+  text-decoration:none;
+  color:#0000cc;
+  cursor:pointer;
+}
+
+.img_logo {
+  width: 25%;
+  height: 25%;
+}
+
+.proyecto-container { 
+font-family: sans-serif; 
+color: black; 
+background:#c8f6e3;
+padding-left:10%;
+border-radius: 2%;
+margin-top: 2%;
+margin-bottom: 2%;
+}
+
+.logo_empresa{
+  width: 60%;
+  height: 60%;
+}
+
+.second-boton{
+    background-color:#44c767;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:28px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:9px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    float: right;
+}
+
+.boton-change{
+    background-color:#f79346;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:28px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:9px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    float: right;
+}
+
+.boton-warning{
+    background-color:#f75e46;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:28px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:9px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    float: right;
+}
+
+.boton-add{
+    background-color:#6676fb;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:28px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:9px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    float: right;
+}
+@media (max-width: 650px) {
+.Footer-data {
+    background: #f0f0f0;
+    text-align: center;
+    margin:0;
+    margin-top: 15%;
+    width: 100%;
+}
+
+.content-login{
+	text-align: center;
+	margin:auto;
+	padding: 5%;
+	width: 50%;
+}
+}
+
+@media (max-width: 820px) {
+.Footer-data {
+    background: #f0f0f0;
+    text-align: center;
+    margin:0;
+    margin-top: 20%;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+.welcome{
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    clear: both;
+    display: block;
+    text-align: left;
+  }
+}
+
+
